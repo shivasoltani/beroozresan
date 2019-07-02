@@ -91,27 +91,25 @@ nav ul {
   border-style: solid;
   border-color: #d0d0d0;
   border-width: 1px;
-  margin-top: 10px;
+  margin-top: 20px;
+  overflow: hidden;
 }
 .sgs p {
   font-weight: 900;
   text-align: center;
   margin-top: 20px;
 }
-.sgs .img1-sgs {
-  height: 90px;
-  width: 300px;
-  margin-top: 30px;
-}
-.sgs .img2-sgs {
-  width: 300px;
-}
 .sgs .sgs-list {
   background-color: #f5f5f5;
+  height: 100%;
 }
 .sgs .sgs-list ul {
   list-style: none;
   text-align: right;
+}
+
+.brand img:hover {
+  background-color: #b2d234;
 }
 
 /*# sourceMappingURL=index.css.map */
