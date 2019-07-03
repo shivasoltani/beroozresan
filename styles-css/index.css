@@ -6,6 +6,9 @@ a {
   text-decoration: none !important;
   color: #4d4d4d;
 }
+a:hover {
+  color: #7c9557;
+}
 
 header {
   background-color: #b2d234;
@@ -110,6 +113,147 @@ nav ul {
 
 .brand img:hover {
   background-color: #b2d234;
+}
+
+.product-box {
+  margin-bottom: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+.product-box:hover {
+  border-color: #d0d0d0;
+}
+.product-box:hover h3 {
+  color: #7c9557;
+}
+.product-box img {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  margin: auto;
+  margin-top: 45px;
+}
+.product-box p {
+  color: #7c9557;
+}
+.product-box .percent {
+  z-index: 1;
+  position: absolute;
+  top: 2px;
+  left: 17px;
+  color: aliceblue;
+}
+.product-box .content {
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  transform: rotate(-45deg);
+  font-size: 12px;
+  line-height: 12px;
+}
+.product-box .bg-percent {
+  border-style: solid;
+  border-width: 32px;
+  border-color: #ed1c24;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+.product-box .off {
+  color: rgba(255, 0, 0, 0.5);
+  position: relative;
+}
+.product-box .off ::before {
+  content: " ";
+  display: block;
+  width: 35%;
+  border-top: 2px solid red;
+  height: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  transform: rotate(-7deg);
+}
+
+.sgs h5 {
+  display: inline-block;
+  color: #515151 !important;
+  border-bottom: 2px solid #f7921e;
+  margin-bottom: -2px !important;
+  font-weight: bold;
+  padding: 10px;
+  float: right;
+}
+.sgs .bx-heading {
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d0d0d0;
+  margin-bottom: 20px;
+}
+
+.img-txt {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  text-align: right;
+  color: #fff;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #2c2c2c;
+  margin-top: 20px;
+}
+footer .footer-header {
+  background-color: #b2d234;
+  min-height: 30px;
+}
+footer p {
+  display: inline-block;
+}
+footer .rahnama {
+  border-bottom: 2px;
+}
+footer h6 {
+  color: #d0d0d0;
+  border-bottom: 1px;
+  border-bottom-color: #4d4d4d;
+  border-bottom-style: solid;
+  text-align: right;
+  padding: 10px;
+}
+footer ul {
+  color: #4d4d4d;
+  list-style: none;
+  text-align: right;
+}
+footer ul :hover {
+  color: #d0d0d0;
+  transition: all 0.5s;
+}
+footer .holograms {
+  background-color: #363636;
+  border-top: 1px solid #505050;
+  box-shadow: 0 -1px 0 #121212;
+  border-bottom: 1px solid #505050;
+}
+footer .holograms h3 {
+  color: #f5f5f5;
+  text-align: right;
+}
+footer .holograms p {
+  color: #515151;
+  text-align: justify;
+}
+footer .end p {
+  color: #d0d0d0;
+  padding: 10px;
+}
+footer .end a {
+  color: #d0d0d0;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=index.css.map */
